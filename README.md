@@ -10,6 +10,11 @@ Nesta aula prática usamos o insomnia para ganhar habilidade em requisições ao
 curl -X GET https://668dcca8bf9912d4c92be825.mockapi.io/gt/api/users
 ```
 
+**GET: Recuperar usuário por id**
+```
+curl -X GET https://668dcca8bf9912d4c92be825.mockapi.io/gt/api/users/1
+```
+
 **POST: Adicionar um novo usuário**
 ```
 curl -X POST https://668dcca8bf9912d4c92be825.mockapi.io/gt/api/users -H "Content-Type: application/json" -d '{"name": "Carlos Segundo", "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/572.jpg"}'
